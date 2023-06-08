@@ -1,6 +1,7 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
+import styles from "../styles/calendar.module.css";
 
 export default function Calendar() {
   const weekDays = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
@@ -9,9 +10,7 @@ export default function Calendar() {
     return weekDays.map((day) => (
       <th key={day}>
         <div className="w-full flex justify-center">
-          <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
-            {day}
-          </p>
+          <p className="day-text">{day}</p>
         </div>
       </th>
     ));
@@ -66,12 +65,12 @@ export default function Calendar() {
           // 유효한 날짜인 경우 날짜 칸 생성
           week.push(
             <td key={day}>
-              <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
+              <div className="cursor-pointer flex w-full justify-center">
                 <p
-                  className={`text-2xl ${
+                  className={`day-text ${
                     day === currentDate.getDate()
-                      ? "text-indigo-700 font-medium"
-                      : "text-gray-500 dark:text-gray-100"
+                      ? "text-sky-500 font-bold text-lg"
+                      : ""
                   }`}
                 >
                   {day}
@@ -91,43 +90,41 @@ export default function Calendar() {
   };
 
   return (
-    <div>
-      <h1>달력 만드는 페이지</h1>
-      <div className="flex items-center justify-center py-8 px-4">
-        <div className="2xl:w-1/3 xl:w-1/2 lg:w-3/5 sm:w-4/5 w-full shadow-lg">
-          <div className="md:p-16 md:pb-12 p-5 dark:bg-gray-800 bg-white rounded-t">
-            <div className="px-4 flex items-center justify-between">
-              <h1 className="text-2xl font-bold dark:text-gray-100 text-gray-800">
-                {currentDate.toLocaleString("default", {
-                  month: "long",
-                  year: "numeric",
-                })}
-              </h1>
-              <div className="flex items-center text-gray-800 dark:text-gray-100">
-                <ChevronLeft
-                  className="icon icon-tabler mr-3 cursor-pointer"
-                  onClick={goToPreviousMonth}
-                />
-                <ChevronRight
-                  className="icon icon-tabler cursor-pointer"
-                  onClick={goToNextMonth}
-                />
-              </div>
-            </div>
-            <div className="flex items-center justify-between pt-12 overflow-x-auto">
-              <table className="w-full">
-                <thead>
-                  <tr>{renderWeekDays()}</tr>
-                </thead>
-                <tbody>
-                  {createCalendar(
-                    currentDate.getFullYear(),
-                    currentDate.getMonth()
-                  )}
-                </tbody>
-              </table>
-            </div>
+    <div className={styles["calendar-container"]}>
+      <div className={styles["calendar-content"]}>
+        <div className={styles["header"]}>
+          <h1
+            className={`text-2xl font-bold ${styles["month-label"]}`}
+            style={{ cursor: "pointer" }}
+          >
+            {currentDate.toLocaleString("default", {
+              month: "long",
+              year: "numeric",
+            })}
+          </h1>
+          <div className={styles["navigation-buttons"]}>
+            <ChevronLeft
+              className={`icon icon-tabler mr-3 ${styles["navigation-icon"]}`}
+              onClick={goToPreviousMonth}
+            />
+            <ChevronRight
+              className={`icon icon-tabler ${styles["navigation-icon"]}`}
+              onClick={goToNextMonth}
+            />
           </div>
+        </div>
+        <div className={styles["table-wrapper"]}>
+          <table className={styles["calendar-table"]}>
+            <thead>
+              <tr>{renderWeekDays()}</tr>
+            </thead>
+            <tbody>
+              {createCalendar(
+                currentDate.getFullYear(),
+                currentDate.getMonth()
+              )}
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

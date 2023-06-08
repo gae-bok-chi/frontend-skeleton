@@ -1,5 +1,5 @@
-import styles from './page.module.css'
-import Link from "next/link"
+import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,7 +8,6 @@ export default function Home() {
       <Link href="/gaebokchi">gaebokchi</Link>
       <Link href="/gaebokchi/history">history</Link>
       <Link href="/gaebokchi/todolist">todolist</Link>
-      <Link href="/gaebokchi/calendar">calendar</Link>
     </main>
-  )
+  );
 }
