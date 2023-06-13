@@ -588,16 +588,8 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
 .font-bold {
   font-weight: 700;
-}
-.text-sky-500 {
-  --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 :root {
@@ -629,5 +621,11 @@ body {
   --background-start-rgb: 255, 255, 255; /* 흰색 */
   --background-end-rgb: 255, 255, 255; /* 흰색 */
   --foreground-rgb: 0, 0, 0; /* 검정색 */
+}
+
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 

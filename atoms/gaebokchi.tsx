@@ -1,1 +1,6 @@
-import { atom } from 'recoil'
+import { atom } from "recoil";
+
+export const todayDateState = atom({
+  key: "todayDate",
+  default: new Date().toISOString().split("T")[0],
+});
