@@ -140,10 +140,6 @@ export default function Calendar() {
     return calendar;
   };
 
-  useEffect(() => {
-    console.log(currentDate);
-  }, [currentDate]);
-
   return (
     <div className={styles["calendar-container"]}>
       <div className={styles["calendar-content"]}>
