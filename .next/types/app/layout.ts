@@ -1,4 +1,4 @@
-// File: C:\Users\tmdwn\OneDrive\바탕 화면\frontend-skeleton\gaebokchi\app\layout.tsx
+// File: C:\Users\82105\Desktop\GGG\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

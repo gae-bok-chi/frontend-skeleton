@@ -308,32 +308,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/gaebokchi/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
-        "name": "*",
-        "chunks": [
-          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
-        "name": "",
-        "chunks": [
-          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
-        "name": "default",
-        "chunks": [
-          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/calendar.tsx": {
       "*": {
         "id": "(sc_client)/./components/calendar.tsx",
@@ -359,22 +333,48 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/gaebokchi/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\page": [
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\page": [
       "static/css/app/page.css"
     ],
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\layout": [
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\page": [
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\gaebokchi\\page": [
       "static/css/app/gaebokchi/page.css"
     ]
   },
   "clientModules": {
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -382,7 +382,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -390,7 +390,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -398,7 +398,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -406,7 +406,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -414,7 +414,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -422,15 +422,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -438,7 +430,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -446,7 +446,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -454,7 +454,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -462,7 +462,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -470,7 +470,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -478,7 +478,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -486,7 +486,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -494,7 +494,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -502,15 +502,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -518,7 +510,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -526,7 +526,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -534,7 +534,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -542,7 +542,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -550,7 +550,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -558,7 +558,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -566,7 +566,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -574,7 +574,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -582,15 +582,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -598,7 +590,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -606,7 +606,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -614,7 +614,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -622,7 +622,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -630,7 +630,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -638,7 +638,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -646,7 +646,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -654,7 +654,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -662,7 +662,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -670,7 +670,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -678,7 +678,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -686,7 +686,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -694,7 +694,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -702,7 +702,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -710,7 +710,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -718,7 +718,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -726,7 +726,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -734,7 +734,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -742,7 +742,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -750,7 +750,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -758,7 +758,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -766,7 +766,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -774,7 +774,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -782,7 +782,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -790,7 +790,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -798,7 +798,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -806,15 +806,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -822,7 +814,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -830,7 +830,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -838,7 +838,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -846,7 +846,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -854,7 +854,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -862,7 +862,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -870,15 +870,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -886,7 +878,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -894,7 +894,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -902,7 +902,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -910,7 +910,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -918,7 +918,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -926,7 +926,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -934,7 +934,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -942,7 +942,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -950,7 +950,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -958,7 +958,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -966,7 +966,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -974,7 +974,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -982,7 +982,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -990,7 +990,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -998,7 +998,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1006,7 +1006,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1014,7 +1014,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1022,7 +1022,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1030,7 +1030,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1038,7 +1038,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1046,14 +1046,14 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\page.module.css#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\page.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\link.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -1061,7 +1061,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\link.js": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -1069,7 +1069,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\link.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -1077,7 +1077,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -1085,7 +1085,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\link.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -1093,7 +1093,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -1101,21 +1101,21 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\globals.css#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\ReactQuery.tsx": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\ReactQuery.tsx": {
       "id": "(app-client)/./components/ReactQuery.tsx",
       "name": "*",
       "chunks": [
@@ -1123,7 +1123,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\ReactQuery.tsx#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\ReactQuery.tsx#": {
       "id": "(app-client)/./components/ReactQuery.tsx",
       "name": "",
       "chunks": [
@@ -1131,7 +1131,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\ReactQuery.tsx#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\ReactQuery.tsx#default": {
       "id": "(app-client)/./components/ReactQuery.tsx",
       "name": "default",
       "chunks": [
@@ -1139,7 +1139,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\Recoil.tsx": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\Recoil.tsx": {
       "id": "(app-client)/./components/Recoil.tsx",
       "name": "*",
       "chunks": [
@@ -1147,7 +1147,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\Recoil.tsx#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\Recoil.tsx#": {
       "id": "(app-client)/./components/Recoil.tsx",
       "name": "",
       "chunks": [
@@ -1155,7 +1155,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\Recoil.tsx#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\Recoil.tsx#default": {
       "id": "(app-client)/./components/Recoil.tsx",
       "name": "default",
       "chunks": [
@@ -1163,45 +1163,21 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx": {
-      "id": "(app-client)/./app/gaebokchi/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx#": {
-      "id": "(app-client)/./app/gaebokchi/layout.tsx",
-      "name": "",
-      "chunks": [
-        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx#default": {
-      "id": "(app-client)/./app/gaebokchi/layout.tsx",
-      "name": "default",
-      "chunks": [
-        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\page.module.css#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\gaebokchi\\page.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/gaebokchi/page.css"
       ]
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\styles\\calendar.module.css#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\styles\\calendar.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/gaebokchi/page.css"
       ]
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\calendar.tsx": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\calendar.tsx": {
       "id": "(app-client)/./components/calendar.tsx",
       "name": "*",
       "chunks": [
@@ -1209,7 +1185,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\calendar.tsx#": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\calendar.tsx#": {
       "id": "(app-client)/./components/calendar.tsx",
       "name": "",
       "chunks": [
@@ -1217,11 +1193,35 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\components\\calendar.tsx#default": {
+    "C:\\Users\\82105\\Desktop\\GGG\\components\\calendar.tsx#default": {
       "id": "(app-client)/./components/calendar.tsx",
       "name": "default",
       "chunks": [
         "app/gaebokchi/page:static/chunks/app/gaebokchi/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\gaebokchi\\layout.tsx": {
+      "id": "(app-client)/./app/gaebokchi/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\gaebokchi\\layout.tsx#": {
+      "id": "(app-client)/./app/gaebokchi/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\82105\\Desktop\\GGG\\app\\gaebokchi\\layout.tsx#default": {
+      "id": "(app-client)/./app/gaebokchi/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
       ],
       "async": false
     }
