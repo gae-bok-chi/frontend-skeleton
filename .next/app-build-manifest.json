@@ -1,21 +1,15 @@
 {
   "pages": {
-    "/page": [
+    "/gaebokchi/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/chunks/app/gaebokchi/layout.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/gaebokchi/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/gaebokchi/layout.js"
     ],
     "/gaebokchi/page": [
       "static/chunks/webpack.js",

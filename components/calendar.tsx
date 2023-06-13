@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
 import styles from "../styles/calendar.module.css";
+import TodayBtn from "./TodayBtn";
+import { FaAngleUp, FaAngleDown } from "react-icons/fa";
 
 export default function Calendar() {
   const weekDays = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
@@ -20,6 +22,12 @@ export default function Calendar() {
   const [currentDate, setCurrentDate] = useState(
     new Date().toISOString().split("T")[0]
   );
+
+  // const [todayDate, setTodayDate] = useRecoilState(todayDateState);
+
+  // useEffect(() => {
+  //   setCurrentDate(todayDate);
+  // }, [todayDate]);
 
   // 이전 달로 이동하는 함수
   const goToPreviousMonth = async () => {
@@ -78,6 +86,66 @@ export default function Calendar() {
     }
   };
 
+  const goToPreviousYear = () => {
+    const year = new Date(currentDate).getFullYear() - 1;
+    const month = new Date(currentDate).getMonth() + 1;
+    if ([1, 3, 5, 7, 8, 10].includes(month)) {
+      const day = new Date(year, month, -29).toISOString().split("T")[0];
+      setCurrentDate(day);
+    } else if ([4, 6, 9, 11].includes(month)) {
+      const day = new Date(year, month, -28).toISOString().split("T")[0];
+      setCurrentDate(day);
+    } else {
+      if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+        if (month == 12 || month == 13) {
+          const day = new Date(year, month, -29).toISOString().split("T")[0];
+          setCurrentDate(day);
+        } else {
+          const day = new Date(year, month, -27).toISOString().split("T")[0];
+          setCurrentDate(day);
+        }
+      } else {
+        if (month == 12 || month == 13) {
+          const day = new Date(year, month, -29).toISOString().split("T")[0];
+          setCurrentDate(day);
+        } else {
+          const day = new Date(year, month, -26).toISOString().split("T")[0];
+          setCurrentDate(day);
+        }
+      }
+    }
+  };
+
+  const goToNextYear = () => {
+    const year = new Date(currentDate).getFullYear() + 1;
+    const month = new Date(currentDate).getMonth() + 1;
+    if ([1, 3, 5, 7, 8, 10].includes(month)) {
+      const day = new Date(year, month, -29).toISOString().split("T")[0];
+      setCurrentDate(day);
+    } else if ([4, 6, 9, 11].includes(month)) {
+      const day = new Date(year, month, -28).toISOString().split("T")[0];
+      setCurrentDate(day);
+    } else {
+      if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+        if (month == 12 || month == 13) {
+          const day = new Date(year, month, -29).toISOString().split("T")[0];
+          setCurrentDate(day);
+        } else {
+          const day = new Date(year, month, -27).toISOString().split("T")[0];
+          setCurrentDate(day);
+        }
+      } else {
+        if (month == 12 || month == 13) {
+          const day = new Date(year, month, -29).toISOString().split("T")[0];
+          setCurrentDate(day);
+        } else {
+          const day = new Date(year, month, -26).toISOString().split("T")[0];
+          setCurrentDate(day);
+        }
+      }
+    }
+  };
+
   const getDaysInMonth = (year: number, month: number) => {
     // 해당 달의 마지막 날짜를 구하는 함수
     return new Date(year, month + 1, 0).getDate();
@@ -106,8 +174,27 @@ export default function Calendar() {
           const clickedDay = day + 1; // 클릭한 날짜를 임시 변수에 저장
           // 유효한 날짜인 경우 날짜 칸 생성
           week.push(
-            <td key={day}>
+            <td key={day} style={{ padding: "0px" }}>
               <div
+                style={{
+                  // margin: "8px",
+                  textAlign: "center",
+                  lineHeight: "37px",
+                  fontSize:
+                    day === new Date(currentDate).getDate() ? "15px" : "15px",
+                  width:
+                    day === new Date(currentDate).getDate() ? "37px" : "37px",
+                  height:
+                    day === new Date(currentDate).getDate() ? "37px" : "37px",
+                  backgroundColor:
+                    day === new Date(currentDate).getDate() ? "#88C5FA" : "",
+                  color:
+                    day === new Date(currentDate).getDate()
+                      ? "#ffffff"
+                      : "#000000",
+                  borderRadius:
+                    day === new Date(currentDate).getDate() ? "50%" : "",
+                }}
                 className="cursor-pointer flex w-full justify-center"
                 onClick={() => {
                   setCurrentDate(
@@ -119,9 +206,7 @@ export default function Calendar() {
               >
                 <p
                   className={`day-text ${
-                    day === new Date(currentDate).getDate()
-                      ? "text-sky-500 font-bold text-lg"
-                      : ""
+                    day === new Date(currentDate).getDate() ? "font-bold" : ""
                   }`}
                 >
                   {day}
@@ -158,6 +243,28 @@ export default function Calendar() {
             })}
           </h1>
           <div className={styles["navigation-buttons"]}>
+            <div
+              style={{
+                marginRight: "35px",
+                cursor: "pointer",
+              }}
+            >
+              <FaAngleUp
+                className={styles["FaAngleUp"]}
+                onClick={() => {
+                  goToPreviousYear();
+                }}
+              />
+              <FaAngleDown
+                className={styles["FaAngleDown"]}
+                onClick={() => {
+                  goToNextYear();
+                }}
+              />
+            </div>
+            <div className={styles["todayBtn"]}>
+              <TodayBtn setCurrentDate={setCurrentDate} />
+            </div>
             <ChevronLeft
               className={`icon icon-tabler mr-3 ${styles["navigation-icon"]}`}
               onClick={goToPreviousMonth}

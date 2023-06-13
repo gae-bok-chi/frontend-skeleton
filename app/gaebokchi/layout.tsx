@@ -1,6 +1,11 @@
 "use client";
 // import { useRouter } from 'next/navigation'
 // import styles from '../../assets/css/TheHeader.module.css'
+
+import { todayDateState } from "@/atoms/gaebokchi";
+import TodayBtn from "@/components/TodayBtn";
+import { RecoilRoot } from "recoil";
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div>
@@ -10,7 +15,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       >
         <div className="flex items-center">
           <div className="logo">Logo</div>
-          <button className="date-button">Today</button>
+          <RecoilRoot
+            initializeState={({ set }) =>
+              set(todayDateState, new Date().toISOString().split("T")[0])
+            }
+          >
+            {/* <TodayBtn /> */}
+          </RecoilRoot>
         </div>
         <div className="flex items-center">
           <button className="other-button">Button 1</button>

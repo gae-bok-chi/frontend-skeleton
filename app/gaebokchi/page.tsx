@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Calendar from "../../components/calendar";
+import { atom, useRecoilState } from "recoil";
 
 export default function Main() {
   return (

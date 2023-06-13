@@ -230,28 +230,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
+    "(app-client)/./app/gaebokchi/layout.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
         "name": "default",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
         ],
         "async": false
       }
@@ -308,32 +308,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/gaebokchi/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
-        "name": "*",
-        "chunks": [
-          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
-        "name": "",
-        "chunks": [
-          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/gaebokchi/layout.tsx",
-        "name": "default",
-        "chunks": [
-          "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/calendar.tsx": {
       "*": {
         "id": "(sc_client)/./components/calendar.tsx",
@@ -363,9 +337,6 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\layout": [
       "static/css/app/layout.css"
     ],
@@ -1046,58 +1017,27 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\page.module.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css"
-      ]
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx": {
+      "id": "(app-client)/./app/gaebokchi/layout.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx#": {
+      "id": "(app-client)/./app/gaebokchi/layout.tsx",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx#default": {
+      "id": "(app-client)/./app/gaebokchi/layout.tsx",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
       ],
       "async": false
     },
@@ -1160,30 +1100,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx": {
-      "id": "(app-client)/./app/gaebokchi/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx#": {
-      "id": "(app-client)/./app/gaebokchi/layout.tsx",
-      "name": "",
-      "chunks": [
-        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tmdwn\\OneDrive\\바탕 화면\\frontend-skeleton\\gaebokchi\\app\\gaebokchi\\layout.tsx#default": {
-      "id": "(app-client)/./app/gaebokchi/layout.tsx",
-      "name": "default",
-      "chunks": [
-        "app/gaebokchi/layout:static/chunks/app/gaebokchi/layout.js"
       ],
       "async": false
     },
