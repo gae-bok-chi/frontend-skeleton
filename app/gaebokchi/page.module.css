@@ -36,8 +36,7 @@
   cursor: pointer;
 }
 
-.add-button:hover {
-  background-color: #000000;
-  color: #ffffff;
-  transition: all 0.4s;
+.add-button:active {
+  background-color: #88c5fa;
+  color: white;
 }

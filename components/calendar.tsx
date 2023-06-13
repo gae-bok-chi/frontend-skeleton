@@ -106,8 +106,27 @@ export default function Calendar() {
           const clickedDay = day + 1; // 클릭한 날짜를 임시 변수에 저장
           // 유효한 날짜인 경우 날짜 칸 생성
           week.push(
-            <td key={day}>
+            <td key={day} style={{ padding: "0px" }}>
               <div
+                style={{
+                  // margin: "8px",
+                  textAlign: "center",
+                  lineHeight: "37px",
+                  fontSize:
+                    day === new Date(currentDate).getDate() ? "15px" : "15px",
+                  width:
+                    day === new Date(currentDate).getDate() ? "37px" : "37px",
+                  height:
+                    day === new Date(currentDate).getDate() ? "37px" : "37px",
+                  backgroundColor:
+                    day === new Date(currentDate).getDate() ? "#88C5FA" : "",
+                  color:
+                    day === new Date(currentDate).getDate()
+                      ? "#ffffff"
+                      : "#000000",
+                  borderRadius:
+                    day === new Date(currentDate).getDate() ? "50%" : "",
+                }}
                 className="cursor-pointer flex w-full justify-center"
                 onClick={() => {
                   setCurrentDate(
@@ -119,9 +138,7 @@ export default function Calendar() {
               >
                 <p
                   className={`day-text ${
-                    day === new Date(currentDate).getDate()
-                      ? "text-sky-500 font-bold text-lg"
-                      : ""
+                    day === new Date(currentDate).getDate() ? "font-bold" : ""
                   }`}
                 >
                   {day}
