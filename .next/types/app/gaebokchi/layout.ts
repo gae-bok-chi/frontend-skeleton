@@ -1,4 +1,4 @@
-// File: C:\Users\tmdwn\OneDrive\바탕 화면\frontend-skeleton\gaebokchi\app\gaebokchi\layout.tsx
+// File: /Users/soso/workspace/gaebokchi/front/frontend-skeleton/app/gaebokchi/layout.tsx
 import * as entry from '../../../../app/gaebokchi/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

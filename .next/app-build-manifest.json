@@ -1,9 +1,10 @@
 {
   "pages": {
-    "/gaebokchi/layout": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/gaebokchi/layout.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,6 +17,21 @@
       "static/chunks/main-app.js",
       "static/css/app/gaebokchi/page.css",
       "static/chunks/app/gaebokchi/page.js"
+    ],
+    "/gaebokchi/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/gaebokchi/layout.js"
+    ],
+    "/gaebokchi/history/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/gaebokchi/history/page.js"
+    ],
+    "/gaebokchi/todolist/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/gaebokchi/todolist/page.js"
     ]
   }
 }
