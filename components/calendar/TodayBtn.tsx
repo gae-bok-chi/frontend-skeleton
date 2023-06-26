@@ -1,12 +1,8 @@
-import { todayDateState } from "@/atoms/gaebokchi";
 import { useRecoilState } from "recoil";
+import { currentDateState } from "../../atoms/gaebokchi";
 
-export interface TodayBtnProps {
-  setCurrentDate: React.Dispatch<React.SetStateAction<string>>;
-}
-
-const TodayBtn = ({ setCurrentDate }: TodayBtnProps) => {
-  //   const [todayDate, setTodayDate] = useRecoilState(todayDateState);
+const TodayBtn = () => {
+  const [currentDate, setCurrentDate] = useRecoilState(currentDateState);
 
   const handleTodayClick = () => {
     setCurrentDate(new Date().toISOString().split("T")[0]);

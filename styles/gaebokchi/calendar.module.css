@@ -71,20 +71,6 @@
   font-size: 1.5rem;
 }
 
-.todayBtn {
-  margin-right: 10px;
-  padding: 6px 12px;
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 900;
-  background-color: #88c5fa;
-  color: #ffffff;
-}
-
-.todayBtn:active {
-  background-color: red;
-}
-
 .FaAngleUp:hover {
   opacity: 0.7;
   color: red;
