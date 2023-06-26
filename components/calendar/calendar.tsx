@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
-import styles from "../styles/calendar.module.css";
+import styles from "../../styles/gaebokchi/calendar.module.css"
 import TodayBtn from "./TodayBtn";
 import { FaAngleUp, FaAngleDown } from "react-icons/fa";
 
@@ -205,9 +205,8 @@ export default function Calendar() {
                 }}
               >
                 <p
-                  className={`day-text ${
-                    day === new Date(currentDate).getDate() ? "font-bold" : ""
-                  }`}
+                  className={`day-text ${day === new Date(currentDate).getDate() ? "font-bold" : ""
+                    }`}
                 >
                   {day}
                 </p>
@@ -224,10 +223,6 @@ export default function Calendar() {
 
     return calendar;
   };
-
-  useEffect(() => {
-    console.log(currentDate);
-  }, [currentDate]);
 
   return (
     <div className={styles["calendar-container"]}>

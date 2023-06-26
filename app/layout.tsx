@@ -1,9 +1,15 @@
-import Recoil from "@/components/Recoil";
+'use client'
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ReactQuery from "@/components/ReactQuery";
+import { RecoilRoot } from "recoil";
+import Header from "@/components/main/header";
+import LandingHeader from "@/components/main/landingHeader";
+
+import { usePathname } from 'next/navigation'
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Gaebokchi",
@@ -15,12 +21,20 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  // 현재 url : string
+  let curURL = usePathname()
+
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Recoil>
-          <ReactQuery>{children}</ReactQuery>
-        </Recoil>
+        <RecoilRoot>
+          <ReactQuery>
+            {/* 현재 url에 따라 다르게 보이는 헤더 */}
+            {curURL == '/' ? <LandingHeader /> : curURL == '/login' ? null : <Header />}
+            {children}
+          </ReactQuery>
+        </RecoilRoot>
       </body>
     </html>
   );
