@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/gaebokchi/page": "app/gaebokchi/page.js",
-  "/gaebokchi/history/page": "app/gaebokchi/history/page.js",
-  "/gaebokchi/todolist/page": "app/gaebokchi/todolist/page.js"
-}
