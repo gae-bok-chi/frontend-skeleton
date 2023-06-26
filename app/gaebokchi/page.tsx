@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./page.module.css";
-import Calendar from "../../components/calendar";
+import styles from "../../styles/gaebokchi/gaebokchi.module.css"
+import Calendar from "../../components/calendar/calendar";
 
 export default function Main() {
+
   return (
     <main className={styles["flex-container"]}>
       {/* 미니 캘린더랑 일정 기록 버튼 오늘 할일*/}
