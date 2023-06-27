@@ -1,8 +1,9 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useRecoilState } from "recoil";
+import { currentDateState } from "../../atoms/gaebokchi";
+import React from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
-import styles from "../../styles/gaebokchi/calendar.module.css"
-import TodayBtn from "./TodayBtn";
+import styles from "../../styles/gaebokchi/calendar.module.css";
 import { FaAngleUp, FaAngleDown } from "react-icons/fa";
 
 export default function Calendar() {
@@ -19,15 +20,9 @@ export default function Calendar() {
   };
 
   // 현재 표시되는 날짜를 상태로 관리합니다.
-  const [currentDate, setCurrentDate] = useState(
-    new Date().toISOString().split("T")[0]
-  );
+  const [currentDate, setCurrentDate] = useRecoilState(currentDateState);
 
-  // const [todayDate, setTodayDate] = useRecoilState(todayDateState);
-
-  // useEffect(() => {
-  //   setCurrentDate(todayDate);
-  // }, [todayDate]);
+  console.log(currentDate)
 
   // 이전 달로 이동하는 함수
   const goToPreviousMonth = async () => {
@@ -205,8 +200,9 @@ export default function Calendar() {
                 }}
               >
                 <p
-                  className={`day-text ${day === new Date(currentDate).getDate() ? "font-bold" : ""
-                    }`}
+                  className={`day-text ${
+                    day === new Date(currentDate).getDate() ? "font-bold" : ""
+                  }`}
                 >
                   {day}
                 </p>
@@ -256,9 +252,6 @@ export default function Calendar() {
                   goToNextYear();
                 }}
               />
-            </div>
-            <div className={styles["todayBtn"]}>
-              <TodayBtn setCurrentDate={setCurrentDate} />
             </div>
             <ChevronLeft
               className={`icon icon-tabler mr-3 ${styles["navigation-icon"]}`}

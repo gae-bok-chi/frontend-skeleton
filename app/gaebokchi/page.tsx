@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../styles/gaebokchi/gaebokchi.module.css"
 import Calendar from "../../components/calendar/calendar";
+import WeekCalendar from "@/components/weekCalendar/weekCalendar";
 
 export default function Main() {
 
@@ -12,8 +13,7 @@ export default function Main() {
         <Calendar />
       </div>
       <div className={styles["right-content"]}>
-        {/* 주간 달력 나오는 부분 */}
-        주간 달력
+        <WeekCalendar />
       </div>
     </main>
   );
