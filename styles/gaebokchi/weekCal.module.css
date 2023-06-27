@@ -1,0 +1,77 @@
+.container {
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 8px;
+  overflow: hidden;
+}
+.week {
+  display: inline-grid;
+  grid-template-columns: 80px repeat(7, minmax(100px, auto)) 18px;
+  text-align: center;
+}
+.week div:first-child {
+  border: none !important;
+}
+.week div:nth-child(2) {
+  border: none !important;
+}
+.week div:last-child {
+  border: none !important;
+}
+.week div {
+  border-left: 1px solid #797979;
+}
+.week h1 {
+  font-size: 2em;
+}
+.schedule_container {
+  overflow-y: scroll;
+  height: 700px;
+}
+.schedule_item {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+
+.hour {
+  height: 50px;
+  width: 80px;
+  position: relative;
+  padding-right: 8px;
+  text-align: right;
+}
+
+.hour span {
+  display: block;
+  position: relative;
+  top: -6px;
+  color: #797979;
+}
+
+.daily {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.daily > div {
+  border-left: 1px solid #797979;
+  flex: 1;
+}
+.daily > div:first-child {
+  border: none !important;
+}
+.daily_item div {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #797979;
+}
