@@ -6,8 +6,8 @@ export default function Home() {
     <main className={styles.main}>
       <h1>개복치를 소개하는 랜딩페이지</h1>
       <Link href="/gaebokchi">gaebokchi</Link>
-      <Link href="/gaebokchi/history">history</Link>
-      <Link href="/gaebokchi/todolist">todolist</Link>
+      <Link href="/history">history</Link>
+      <Link href="/todolist">todolist</Link>
     </main>
   );
 }
