@@ -12,6 +12,7 @@ export default function Main() {
         <button className={styles["add-button"]}>만들기 +</button>
         <Calendar />
       </div>
+      {/* 주간 캘린더 */}
       <div className={styles["right-content"]}>
         <WeekCalendar />
       </div>
