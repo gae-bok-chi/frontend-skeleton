@@ -11,6 +11,9 @@
   width: 100%;
   table-layout: fixed;
 }
+.weekTable {
+  margin-right: 17px;
+}
 .week {
   width: auto;
   height: 50px;
@@ -45,7 +48,7 @@
   border-left: none;
 }
 
-.schedule_container {
+.timeTable {
   overflow-y: scroll;
   height: 700px;
 }
@@ -71,5 +74,4 @@
   top: 40px;
   left: 0;
   width: 100%;
-  /* background-color: aquamarine; */
 }

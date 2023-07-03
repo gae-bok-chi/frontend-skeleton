@@ -32,56 +32,65 @@ export default function WeekCalendar() {
 
   return (
     <div className={styles.container}>
-      <table >
-        {/* 요일 표시  */}
-        <thead className={styles.week}>
-          <tr>
-            <th></th>
-            {weekDays.map((day) => (
-              <th key={day}>
-                <h3>{day}</h3>
-              </th>))}
-          </tr>
-        </thead>
-        <tbody >
-          {/* 날짜 표시 */}
-          <tr className={styles.date}>
-            <td></td>
-            {getWeekDates(currentDate).map((date) => (
-              <td key={date.formattedDate}
-                className={date.formattedDate && date.formattedDate == today ? styles.today : ''}>
-                <h3>{date.date}</h3>
-              </td>))}
-          </tr>
-          {/* 시간 */}
-          {hour.map((h, index) => (
-            <tr className={styles.hour} key={index} id={`오전${h}`}>
-              <td className={styles.time}>
-                <span >
-                  {`오전${h}시`}
-                </span>
-              </td>
-              {weekDays.map((day, idx) => (
-                <td className={styles.daily_item} key={idx} id={day}></td>
-              ))}
+      <div className={styles.weekTable}>
+        <table >
+          {/* 요일 표시  */}
+          <thead className={styles.week}>
+            <tr>
+              <th></th>
+              {weekDays.map((day) => (
+                <th key={day}>
+                  <h3>{day}</h3>
+                </th>))}
             </tr>
-          )
-          )}
-          {hour.map((h, index) => (
-            <tr className={styles.hour} key={index} id={`오후${h}`}>
-              <td className={styles.time}>
-                <span>
-                  {`오후${h}시`}
-                </span>
-              </td>
-              {weekDays.map((day, idx) => (
-                <td className={styles.daily_item} key={idx} id={day}></td>
-              ))}
+          </thead>
+          <tbody >
+            {/* 날짜 표시 */}
+            <tr className={styles.date}>
+              <td></td>
+              {getWeekDates(currentDate).map((date) => (
+                <td key={date.formattedDate}
+                  className={date.formattedDate && date.formattedDate == today ? styles.today : ''}>
+                  <h3>{date.date}</h3>
+                </td>))}
             </tr>
-          )
-          )}
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </div>
+
+      {/* 시간 */}
+      <div className={styles.timeTable}>
+        <table  >
+          <tbody>
+            {hour.map((h, index) => (
+              <tr className={styles.hour} key={index} id={`오전${h}`}>
+                <td className={styles.time}>
+                  <span >
+                    {`오전${h}시`}
+                  </span>
+                </td>
+                {weekDays.map((day, idx) => (
+                  <td className={styles.daily_item} key={idx} id={`${day},오전${h}시`}></td>
+                ))}
+              </tr>
+            )
+            )}
+            {hour.map((h, index) => (
+              <tr className={styles.hour} key={index} id={`오후${h}`}>
+                <td className={styles.time}>
+                  <span>
+                    {`오후${h}시`}
+                  </span>
+                </td>
+                {weekDays.map((day, idx) => (
+                  <td className={styles.daily_item} key={idx} id={`${day},오후${h}시`}></td>
+                ))}
+              </tr>
+            )
+            )}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
