@@ -1,0 +1,63 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.subContainer {
+  overflow: hidden;
+  width: 80vw;
+}
+.innerContainer {
+  width: 240vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  width: 20vw;
+  height: 500px;
+  margin: 0;
+  padding: 20px;
+}
+.item p {
+  color: rgba(222, 132, 150, 1);
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+.month {
+  background-color: rgba(250, 214, 221, 1);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.month div {
+  background-color: white;
+  border-radius: 25px;
+  width: 100%;
+  height: 70px;
+}
+.button {
+  width: 10vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.button button {
+  border: 3px solid rgba(136, 197, 250, 1);
+  border-radius: 100%;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
