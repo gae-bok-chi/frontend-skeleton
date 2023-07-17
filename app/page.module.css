@@ -1,8 +1,25 @@
+@font-face {
+  font-family: 'LINESeedKR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  height: 300vh;
+  background: linear-gradient(to bottom, #95E2EC, #3290FF);
+  font-family: 'LINESeedKR';
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  align-items: center;
+  color: #FFF;
 }
